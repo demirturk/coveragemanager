@@ -1,10 +1,25 @@
 # coveragemanager
 This study proposes a framework that optimizes the energy--security--coverage trade-off by enabling adaptive security and sustained network coverage in WSNs composed of Dynamic Partial Reconfiguration (DPR)-enabled FPGA sensor nodes for Internet of Things (IoT) applications
 
-MATLAB R2024a is used to implemetn this project
+This repository contains a MATLAB simulation framework for coverage optimisation in an energy-constrained WSN/IoT scenario, including optional Dynamic Partial Reconfiguration (DPR) effects and AES-variant security configurations.
 
-The simulation can be started by running the main.m script. This script generates coverage-optimization results for scenarios with Dynamic Partial Reconfiguration (DPR) enabled and disabled.
+## How to run
+1. Open MATLAB.
+2. Set the repository root as the current folder.
+3. Run:
+   - `main.m`
 
-SIM_INPUT.m script includes simulation paramaters such as number of nodes, max energy budget and round number of the simulation.
+## Outputs
+Simulation outputs (figures/results) will be generated during execution.
 
-neo_call_energy_info.m script includes real DPR and encryption operation energy consumption values
+## Configuration
+Key parameters can be configured in: main.c ,sim_INPUTS.m and neo_call_energy_info.m
+
+## Requirements
+- MATLAB (tested on: version 2024a)
+
+## Citation
+If you use this code in academic work, please cite the related paper: Demirturk, M. O., & Ors, B. (2025, July). Trust Based Access Control For Dynamically Reconfigurable Sensor Network. In 2025 21st International Conference on Synthesis, Modeling, Analysis and Simulation Methods, and Applications to Circuits Design (SMACD) (pp. 1-4). IEEE.
+
+## License
+The license is specified in `LICENSE`.
