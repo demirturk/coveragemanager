@@ -3,6 +3,8 @@ This study proposes a framework that optimizes the energy--security--coverage tr
 
 This repository contains a MATLAB simulation framework for coverage optimisation in an energy-constrained WSN/IoT scenario, including optional Dynamic Partial Reconfiguration (DPR) effects and AES-variant security configurations.
 
+a new version of this repository is presented in: https://github.com/demirturk/CovOptimisation
+
 ## How to run
 1. Open MATLAB.
 2. Set the repository root as the current folder.
